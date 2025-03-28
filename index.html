@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Grams to Price Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calculator">
+    <h1>Grams to Price Calculator</h1>
+    <h4>created by vishvesh</h4>
+    <label for="price">Price for given weight (INR):</label>
+    <input type="number" id="price" placeholder="Enter price (INR)">
+    <label for="weight">Weight given (grams):</label>
+    <input type="number" id="weight" placeholder="Enter weight (grams)">
+    <label for="new-weight"> weight (grams):</label>
+    <input type="number" id="new-weight" placeholder="Enter new weight (grams)">
+    <button onclick="calculatePrice()">Calculate Price</button>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
